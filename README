@@ -1,0 +1,38 @@
+This package contains code implementing multiscale framework described in:
+Shai Bagon and Meirav Galun, A Unified Multiscale Framework for Discrete Energy Minimization, 2012
+
+arXiv: http://arxiv.org/abs/1204.4867
+
+If you use this code, please use the following citation in all relevant publications:
+@article{Bagon2012,
+   author={Shai Bagon and Meirav Galun},
+   title ={A Unified Multiscale Framework for Discrete Energy Minimization},
+   journal={arXiv},
+   year={2012}
+}
+
+Sub folders include
+icm/ - code for Iterated Consitional Modes (Basage 1986).
+discrete_multiscale/ - main functionality of package
+demo/ - demo code
+
+Installation:
+1. Unpack the package into a folder
+2. In Matlab, go to that folder and type
+   >> installDiscreteMultiscaleOpt.m
+   This script should compile all associated mex-files and add relevant folders to path.
+3. run demo/discrete_multiscale_demo 
+4. Use
+   >> doc discreteMultiscaleOptimization
+   or
+   >> doc discreteMultiscaleOptimization_labels
+   For more details
+
+Please see LICENSE file for EULA.
+
+
+
+
+Shai Bagon, 2012
+www.wisdom.weizmann.ac.il/~bagon
+

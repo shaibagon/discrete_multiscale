@@ -1,0 +1,6 @@
+Change log for discrete multiscale code.
+Written by Shai Bagon
+www.wisdom.weizmann.ac.il/~bagon
+
+V1.0 - init version
+V1.1 - Added arXiv reference
